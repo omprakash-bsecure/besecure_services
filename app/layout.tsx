@@ -9,7 +9,7 @@ export const metadata = {
   title: "Bsecure Digital Technology - Your Trusted CCTV Partner in Jharkhand",
   description:
     "Secure your home or business today with comprehensive security solutions including CCTV, intercom systems, biometric solutions, and more.",
-    generator: 'v0.dev'
+
 }
 
 export default function RootLayout({
