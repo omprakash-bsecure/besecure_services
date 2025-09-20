@@ -6,7 +6,6 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Alert, AlertDescription } from '@/components/ui/alert';
 
 export function ContactForm() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -20,11 +19,9 @@ export function ContactForm() {
         <Card className="shadow-xl">
             <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Get Free CCTV Installation Quote</h3>
-                <Alert className="mb-6">
-                    <AlertDescription>
-                        • Free consultation • Same day service available • Professional installation
-                    </AlertDescription>
-                </Alert>
+                <p className="mb-6 border p-4 text-sm font-medium rounded-lg">
+                    • Free consultation • Same day service available • Professional installation
+                </p>
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
                         <Label htmlFor="fullName" className="text-sm font-medium text-gray-700">
