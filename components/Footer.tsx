@@ -22,7 +22,7 @@ export function Footer() {
                             </div>
                         </Link>
                         <p className="text-gray-600 max-w-xs">
-                            Your trusted CCTV installation partner in Jharkhand providing comprehensive security solutions.
+                            Your trusted CCTV installation partner in Jharkhand providing complete security solutions.
                         </p>
                     </div>
                     <div>
@@ -72,8 +72,8 @@ export function Footer() {
                             <div className="flex items-center gap-2">
                                 <Mail className="h-4 w-4 text-primary" />
                                 <p>
-                                    <a href="mailto:besecurecamservice@gmail.com" className="hover:text-primary">
-                                        besecurecamservice@gmail.com
+                                    <a href="mailto:bsecurecamservice@gmail.com" className="hover:text-primary">
+                                        bsecurecamservice@gmail.com
                                     </a>
                                 </p>
                             </div>
@@ -85,7 +85,7 @@ export function Footer() {
                                 <Instagram className="h-4 w-4 text-primary" />
                                 <p>
                                     <a
-                                        href="https://instagram.com/bsecurecamservice"
+                                        href="https://www.instagram.com/bsecureinfotech"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="hover:text-primary"

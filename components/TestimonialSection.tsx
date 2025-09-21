@@ -23,7 +23,7 @@ export function TestimonialsSection() {
                     <Card>
                         <CardContent className="p-6">
                             <blockquote className="text-gray-700 mb-4">
-                                "As a business owner, security is paramount. BSECURE provided a comprehensive CCTV solution that gives me peace of mind."
+                                "As a business owner, security is paramount. BSECURE provided a complete CCTV solution that gives me peace of mind."
                             </blockquote>
                             <span className="font-semibold">Priya Sharma</span>
                             <p className="text-sm text-gray-600">Business Owner, Hazaribagh</p>

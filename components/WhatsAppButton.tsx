@@ -1,9 +1,8 @@
 'use client';
-import Image from "next/image";
 import { Button } from '@/components/ui/button';
 
 export function WhatsAppButton() {
-    const phoneNumber = "919162118159"; // Without + and spaces
+    const phoneNumber = "918936863356";
     const message = encodeURIComponent(
         "Hi BSECURE! I'm interested in your CCTV installation services. Please provide more details about pricing and installation in Ranchi/Hazaribagh."
     );
@@ -21,7 +20,7 @@ export function WhatsAppButton() {
                         alt="WhatsApp"
                         className="lg:size-12 md:size-10 sm:size-10 size-8 object-contain"
                     />
-                    <span className="sr-only">WhatsApp</span>
+                    <span className="text-lg">WhatsApp</span>
                 </a>
             </Button>
         </div>

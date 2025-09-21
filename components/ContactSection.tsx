@@ -28,8 +28,8 @@ export function ContactSection() {
                                 <div>
                                     <h3 className="font-medium">Email</h3>
                                     <p className="text-gray-500">
-                                        <a href="mailto:besecurecamservice@gmail.com" className="hover:text-primary">
-                                            besecurecamservice@gmail.com
+                                        <a href="mailto:bsecurecamservice@gmail.com" className="hover:text-primary">
+                                            bsecurecamservice@gmail.com
                                         </a>
                                     </p>
                                 </div>
@@ -64,24 +64,29 @@ export function ContactSection() {
                                 <h3 className="font-medium mb-3">Follow Us</h3>
                                 <div className="flex items-center space-x-3 p-3 text-primary rounded-lg w-fit border">
                                     <a
-                                        href="https://instagram.com/bsecurecamservice"
+                                        href="https://www.instagram.com/bsecureinfotech"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="w-7 h-7 rounded-full flex items-center justify-center"
                                     >
                                         <Instagram className="w-5 h-5 " />
+                                        <span className="sr-only">Bsecure Instagram</span>
                                     </a>
                                     <a
-                                        href="https://linkedin.com"
+                                        href="https://www.linkedin.com/company/bsecure-digital-technology/"
                                         className="w-7 h-7  rounded-full flex items-center justify-center"
+                                        target="_blank"
                                     >
-                                        <Linkedin className="w-5 h-5 " />
+                                        <Linkedin className="w-5 h-5" />
+                                        <span className="sr-only">BSecure Linkedin</span>
                                     </a>
                                     <a
-                                        href="https://facebook.com"
+                                        href="https://facebook.com/bsecureinfotech"
+                                        target="_blank"
                                         className="w-7 h-7  rounded-full flex items-center justify-center"
                                     >
-                                        <FacebookIcon className="w-5 h-5 " />
+                                        <FacebookIcon className="w-5 h-5" />
+                                        <span className="sr-only">BSecure Facebook</span>
                                     </a>
                                 </div>
                             </div>

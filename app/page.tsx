@@ -1,5 +1,6 @@
 import { AboutSection } from "@/components/AboutSection";
 import { ContactSection } from "@/components/ContactSection";
+import { FAQSection } from "@/components/FAQSection";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection";
@@ -18,6 +19,7 @@ export default async function HomePage() {
         <ServicesSection />
         <AboutSection />
         <WhyChooseUsSection />
+        <FAQSection />
         <TestimonialsSection />
         <ContactSection />
       </main>
