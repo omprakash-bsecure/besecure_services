@@ -14,8 +14,8 @@ export async function HeroSection() {
                             Best CCTV Camera Installation Services in
                             <span className="text-primary block">Ranchi, Jharkhand</span>
                         </h1>
-
-                        <p className="text-xl opacity-80 mb-8 leading-relaxed text-justify">
+                        <p className="text-lg font-semibold lg:hidden md:hidden sm:hidden flex justify-center text-center mb-6"><span className="text-primary mr-1.5">BSECURE</span>Information Technology</p>
+                        <p className="text-lg md:text-lg lg:text-xl opacity-80 mb-8 leading-relaxed text-justify">
                             We offer the best CCTV camera installation, biometric systems, computer services (installation, repair, and maintenance), and complete IT solutions across Jharkhand - including Ranchi, Dhanbad, and Hazaribagh. Trusted by over 500 satisfied customers statewide.
                         </p>
 

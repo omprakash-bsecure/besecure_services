@@ -1,8 +1,8 @@
 import type React from "react"
 import "@/app/globals.css"
 import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
 import { Metadata } from "next"
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -211,9 +211,8 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="BSECURE CCTV" />
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {children}
-        </ThemeProvider>
+        {children}
+        <Analytics />
       </body>
     </html>
   )
