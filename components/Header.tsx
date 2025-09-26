@@ -41,9 +41,9 @@ export function Header() {
                             +919162118159
                         </a>
                     </div>
-                    <Button className=" hidden md:flex bg-primary text-white font-medium px-6 py-2 rounded-md">
+                    <a className=" hidden md:flex bg-primary text-white font-medium px-6 py-2 rounded-md" href="#contact">
                         Contact
-                    </Button>
+                    </a>
                 </div>
             </div>
         </header>

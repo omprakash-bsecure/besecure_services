@@ -17,10 +17,10 @@ export function WhatsAppButton() {
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                     <img
                         src="/WhatsApp.svg"
-                        alt="WhatsApp"
+                        alt="Whats App Logo"
                         className="lg:size-12 md:size-10 sm:size-10 size-8 object-contain"
                     />
-                    <span className="text-lg">WhatsApp</span>
+                    <span className="lg:text-lg md:text-md text-sm">WhatsApp</span>
                 </a>
             </Button>
         </div>
