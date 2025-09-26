@@ -42,8 +42,9 @@ export async function HeroSection() {
                     <div className="flex justify-center items-center">
                         <div className="border-primary border-l-4 border-b-4 rounded-xl">
                             <img
-                                src="/hero-bg.png"
+                                src="/hero-bg.webp"
                                 alt="Happy CCTV customer"
+                                fetchPriority="high"
                                 className="rounded-md border-primary border size-auto object-cover"
                             />
                         </div>

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     url: 'https://bsecuretech.in',
     images: [
       {
-        url: 'https://besecuretech.in/og.png',
+        url: 'https://bsecuretech.in/og.png',
         width: 1200,
         height: 630,
         alt: 'BSECURE CCTV Installation Services in Ranchi Jharkhand',
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'CCTV Installation Ranchi | Professional Security Camera Setup Jharkhand',
     description: 'Expert CCTV installation in Ranchi, Khunti, Hazaribagh. Professional service, warranty, 24/7 support. Free survey. Call +91 9162118159',
-    images: ['https://besecuretech.in/og.png']
+    images: ['https://bsecuretech.in/og.png']
   },
 
   category: 'Security Services',
   classification: 'Business',
   alternates: {
-    canonical: 'https://www.besecuretech.in',
+    canonical: 'https://www.bsecuretech.in',
   }
 }
 
